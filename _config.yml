@@ -1,0 +1,12 @@
+paginate: 1
+paginate_path: "/news/page:num/"
+
+authors:
+  scott:
+    display_name: Scott
+    gravatar: e9b1824da5b46f8f5000c8eada796eda
+    github: sarostru
+  dann:
+    display_name: Dann
+    gravatar: 
+    github: dxnn
