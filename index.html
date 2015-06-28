@@ -1,12 +1,13 @@
-<!doctype html>
+---
+---
 <html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Conservate ogne speranza, voi ch'intrate</title>
+    <title>Conservare ogne speranza, voi ch'intrate</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <link rel="stylesheet" href="/stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -52,12 +53,47 @@
         
         
       </section>
-      
+	  
+      <section>
+	  <h3><p>Cabal News and Meeting Recaps</p></h3>
+	  <!-- Pagination links -->
+	  <div class="pagination">
+	  {% if paginator.previous_page %}
+		<a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+		{% else %}
+		<span class="previous">Previous</span>
+	  {% endif %}
+	  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+	  {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+	  {% else %}
+		<span class="next ">Next</span>
+	  {% endif %}
+	  </div>
+	  <!-- This loops through the paginated posts -->
+	  {% for post in paginator.posts %}
+		<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+		<p class="meta">
+		{% assign author = site.authors[post.author] %}
+		<span class="date">{{ post.date | date: "%B %-d, %Y" }}.</span>
+		<span class="author">&nbsp;&nbsp;Brought to you by: {{ author.display_name }}</span>
+		<a href="http://github.com/{{author.github}}">
+		  <img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=40", alt="{{author.github}}">
+		</a>
+		</p>
+		<div class="content">
+			{{ post.content }}
+		</div>
+	  {% endfor %}
+
+
+	  </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/CompSciCabal">CompSciCabal</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
+
     
     <script src="javascripts/scale.fix.js"></script>
     <script type="text/javascript">
@@ -72,4 +108,5 @@
     </script>
 
   </body>
+
 </html>

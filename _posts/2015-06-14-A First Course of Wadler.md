@@ -1,0 +1,12 @@
+---
+author: scott
+--- 
+Greetings Caballeros,
+ Ample cookies and confusionators were in attendance on Friday for what proved to be the longest session to date, which we may need to work on limiting in future.  On the menu was parts 1 and 2 of Philip Wadler's paper, "Theorems for free!", a hearty, substantial dish.  We made good headway and we will continue to chew on it together next week at the usual time and place, Friday at 6:30pm @ Bento Miso.
+
+I am loving this paper so far, I still don't understand that much, but I think that may be why I like it.  The paper starts out deceptively fun; a cool title with an exclamation mark in it, the first page covers an example that seems intuitive, and then another full page of examples that seem more or less plausible if you don't think too hard on them.  Then there are some hints that all may not be as it seems.  For one, I found my background knowledge lacking and the connection between fixed points and the strong normalization property of type systems required further research.  Following that, Dann pointed out that in the second paragraph on page 4, there are a lot of unfamiliar keywords; "parametricity", "polymorphic lambda calculus", "representation theorem", "abstraction thereom", "dinatural transformations", and "whom" (grammatically accurate, but who uses whom?).  But the bomb comes in section 2 which begins with, "The key to extracting theorems from types is to read types as relations."  Wait, What?!  What does that even mean?  Wadler!
+
+We spent a good portion of the evening going through section 2, exploring many examples of different types as relations, what functions on types look like, how they might be useful, and then it got late and we never quite got through the polymorphic expressions.  I'm going to try and write out our examples and put them on the wiki, and maybe explore them in some more detail as I think they helped shed light on what the motivations for types as relations and the consequences of using them are.  Special thanks to Pete for bringing up the geometric interpretation of the relational types and the excellent example of using relations as data abstraction to implement a complex number type in either Cartesian or polar coordinates.  I think those ideas really helped bring to life the mathematical definitions of relational types in section 2. 
+
+Anyway, all for now, looking forward to our next meeting,
+Scott
