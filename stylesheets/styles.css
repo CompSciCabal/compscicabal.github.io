@@ -221,6 +221,7 @@ footer {
 @media print, screen and (max-width: 720px) {
   body {
     word-wrap:break-word;
+    color: #333;
   }
   
   header {
