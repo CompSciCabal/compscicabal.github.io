@@ -1,3 +1,7 @@
+---
+title: Classic Logic
+author: scott
+---
 Hey everyone!
   Friday night we discussed Classical Logic (13 PFPL) in a decidedly non-classical way.  It was a somewhat surprising and mind bending to treat the same old logic statements we know and love in a very different way, thanks Harper!
 
