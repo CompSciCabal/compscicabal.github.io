@@ -1,112 +1,74 @@
 ---
 ---
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Conservare ogne speranza, voi ch'intrate</title>
 
-    <link rel="stylesheet" href="/stylesheets/styles.css">
-    <link rel="stylesheet" href="/stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>CS Cabal</h1>
-        <p>Purveyors of fine automata since 1613</p>
+<header>
+  <h1>CS Cabal</h1>
+  <p>Purveyors of fine automata since 1613</p>
 
-        <p class="view"><a href="https://github.com/CompSciCabal/SMRTYPRTY/wiki/Reading-Schedule">Friday night papers <small>Reading Schedule</small></a></p>
-        
-        <p class="view"><a href="https://github.com/CompSciCabal/SMRTYPRTY/wiki/Reading-Schedule!-SICP-Mark-II">Thursday night SICP <small>Reading Schedule</small></a></p>
-        
-        <p class="view"><a href="https://groups.google.com/forum/#!forum/cs-cabal">Mailing list <small>Communication nexus</small></a></p>
-        
-        <p class="view"><a href="https://plus.google.com/communities/101341712823792967748">Google group <small>Communication nexus</small></a></p>
-        
-        <p class="view"><a href="https://twitter.com/cscabal">Twitter <small>Communication nexus</small></a></p>
+  <p class="view"><a href="https://github.com/CompSciCabal/SMRTYPRTY/wiki/Reading-Schedule">Friday night papers <small>Reading Schedule</small></a></p>
 
-        <p class="view"><a href="https://bentomiso.zendesk.com/hc/en-us/articles/201812303-Code-of-Conduct">Code of Conduct <small>Must read</small></a></p>
+  <p class="view"><a href="https://github.com/CompSciCabal/SMRTYPRTY/wiki/Reading-Schedule!-SICP-Mark-II">Thursday night SICP <small>Reading Schedule</small></a></p>
 
-      </header>
-      
-      <section>
-        <h3><a id="cabal-sanctioned-actions" class="anchor" href="#cabal-sanctioned-actions" aria-hidden="true"></a>Cabal-sanctioned projects</h3>
+  <p class="view"><a href="https://groups.google.com/forum/#!forum/cs-cabal">Mailing list <small>Communication nexus</small></a></p>
 
-        <p><a href="https://github.com/Inaimathi/experimentalisp">Experimentalisp</a></p>
-        
-        
-        
-        <h3><a id="experiments" class="anchor" href="#experiments" aria-hidden="true"></a>Experiments</h3></h3>
+  <p class="view"><a href="https://plus.google.com/communities/101341712823792967748">Google group <small>Communication nexus</small></a></p>
 
-        <p><a href="https://github.com/CompSciCabal/SMRTYPRTY/blob/master/experiments/ndpar/sicp-5.3-gc/gc.gif">SICP GC animated</a></p>
-        
-        <p><a href="https://github.com/CompSciCabal/SMRTYPRTY/blob/master/experiments/inaimathi/sicp-constraints/compiler.lisp">Constraint solver</a></p>
-        
-        <p><a href="https://github.com/CompSciCabal/SMRTYPRTY/blob/master/experiments/scott/garbage_collector/plai/tests/gc/good-collectors/mark_and_compact_collector.rkt">Mark and Compact GC</a></p>
+  <p class="view"><a href="https://twitter.com/cscabal">Twitter <small>Communication nexus</small></a></p>
 
-        <p><a href="https://github.com/CompSciCabal/SMRTYPRTY/blob/master/experiments/dann/josephus.js">Sketch of a Josephus solver</a></p>
-        
-        
-        
-      </section>
-	  
-      <section>
-	  <h3><p>Cabal News and Meeting Recaps</p></h3>
-	  <!-- Pagination links -->
-	  <div class="pagination">
-	  {% if paginator.previous_page %}
-		<a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-		{% else %}
-		<span class="previous">Previous</span>
-	  {% endif %}
-	  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-	  {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-	  {% else %}
-		<span class="next ">Next</span>
-	  {% endif %}
-	  </div>
-	  <!-- This loops through the paginated posts -->
-	  {% for post in paginator.posts %}
-		<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-		<p class="meta">
-		{% assign author = site.authors[post.author] %}
-		<span class="date">{{ post.date | date: "%B %-d, %Y" }}.</span>
-		<span class="author">&nbsp;&nbsp;Brought to you by: {{ author.display_name }}</span>
-		<a href="http://github.com/{{author.github}}">
-		  <img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=40", alt="{{author.github}}">
-		</a>
-		</p>
-		<div class="content">
-			{{ post.content }}
-		</div>
-	  {% endfor %}
+  <p class="view"><a href="https://bentomiso.zendesk.com/hc/en-us/articles/201812303-Code-of-Conduct">Code of Conduct <small>Must read</small></a></p>
+
+</header>
+
+<section>
+  <h3><a id="cabal-sanctioned-actions" class="anchor" href="#cabal-sanctioned-actions" aria-hidden="true"></a>Cabal-sanctioned projects</h3>
+
+  <p><a href="https://github.com/Inaimathi/experimentalisp">Experimentalisp</a></p>
 
 
-	  </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/CompSciCabal">CompSciCabal</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
 
-    
-    <script src="javascripts/scale.fix.js"></script>
-    <script type="text/javascript">
-      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-      try {
-        var pageTracker = _gat._getTracker("UA-61123805-1");
-        pageTracker._trackPageview();
-      } catch(err) {}
-    </script>
+  <h3><a id="experiments" class="anchor" href="#experiments" aria-hidden="true"></a>Experiments</h3></h3>
 
-  </body>
+  <p><a href="https://github.com/CompSciCabal/SMRTYPRTY/blob/master/experiments/ndpar/sicp-5.3-gc/gc.gif">SICP GC animated</a></p>
 
-</html>
+  <p><a href="https://github.com/CompSciCabal/SMRTYPRTY/blob/master/experiments/inaimathi/sicp-constraints/compiler.lisp">Constraint solver</a></p>
+
+  <p><a href="https://github.com/CompSciCabal/SMRTYPRTY/blob/master/experiments/scott/garbage_collector/plai/tests/gc/good-collectors/mark_and_compact_collector.rkt">Mark and Compact GC</a></p>
+
+  <p><a href="https://github.com/CompSciCabal/SMRTYPRTY/blob/master/experiments/dann/josephus.js">Sketch of a Josephus solver</a></p>
+
+</section>
+
+<section>
+  <h3><p>Cabal News and Meeting Recaps</p></h3>
+  <!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+    {% else %}
+    <span class="previous">Previous</span>
+    {% endif %}
+    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+    {% else %}
+    <span class="next ">Next</span>
+    {% endif %}
+  </div>
+  <!-- This loops through the paginated posts -->
+  {% for post in paginator.posts %}
+  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <p class="meta">
+    {% assign author = site.authors[post.author] %}
+    <span class="date">{{ post.date | date: "%B %-d, %Y" }}.</span>
+    <span class="author">&nbsp;&nbsp;Brought to you by: {{ author.display_name }}</span>
+    <a href="http://github.com/{{author.github}}">
+      <img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=40", alt="{{author.github}}">
+    </a>
+  </p>
+  <div class="content">
+    {{ post.content }}
+  </div>
+  {% endfor %}
+
+
+</section>

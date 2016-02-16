@@ -8,5 +8,16 @@ authors:
     github: sarostru
   dann:
     display_name: Dann
-    gravatar: 
+    gravatar:
     github: dxnn
+  j0ni:
+    display_name: J
+    gravatar: e26838cd1064441fead19103f1af54d8
+    github: j0ni
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
