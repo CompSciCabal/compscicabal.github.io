@@ -1,5 +1,5 @@
 ---
-title: Church's and Untyped Lambda Calculus
+title: Church's Law and Untyped Lambda Calculus
 author: scott
 ---
 Hi Everyone,
