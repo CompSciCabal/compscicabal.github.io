@@ -1,6 +1,10 @@
 paginate: 1
 paginate_path: "/news/page:num/"
 
+name: Toronto CSCabal
+description: news and happenings of the Toronto CSCabal
+url: http://compscicabal.github.io
+
 gems:
   - jekyll-feed
 
