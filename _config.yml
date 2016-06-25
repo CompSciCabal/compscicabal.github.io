@@ -1,6 +1,9 @@
 paginate: 1
 paginate_path: "/news/page:num/"
 
+gems:
+  - jekyll-feed
+
 authors:
   scott:
     display_name: Scott
