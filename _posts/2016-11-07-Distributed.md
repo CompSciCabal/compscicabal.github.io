@@ -1,5 +1,5 @@
 ---
-author: Scott
+author: scott
 title: Please Distribute 
 ---
 Hello fellow cs enthusiasts!
@@ -13,5 +13,5 @@ This week saw us explore distributed computation, not to be confused with parall
 As a not concurrent, but distributed computation you could imagine the case of people sitting in a circle and to mediate who is speaking they pass around an object, e.g. whoever holds the wooden spoon can speak and everyone else must sit quiet and listen.  If we think of each person as a 'site' in the distributed computation, then each site would have a single process waiting for the spoon, and once it receives the spoon it can say it's bit and then pass along the control spoon; conveniently leaving no time or processing power for listening, but that's not what was important here anyway. 
 
 We still have lots of parts to try and understand, looking forward to discussing it again next week,
-See you
+
 Scott
