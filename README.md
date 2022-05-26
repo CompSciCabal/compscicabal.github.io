@@ -1,5 +1,5 @@
 # A shiny new website!
-The World Wide Web hypertext repository for [cscabal.com](cscabal.com)
+The World Wide Web hypertext repository for [cscabal.com](http://cscabal.com)
 
 # How to Write Posts
 
