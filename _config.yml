@@ -1,12 +1,13 @@
-paginate: 1
+paginate: 10
 paginate_path: "/news/page:num/"
 
 name: Toronto CSCabal
 description: news and happenings of the Toronto CSCabal
 url: http://compscicabal.github.io
 
-gems:
+plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 authors:
   scott:
@@ -21,6 +22,14 @@ authors:
     display_name: J
     gravatar: e26838cd1064441fead19103f1af54d8
     github: j0ni
+  erik:
+    display_name: Erik
+    gravatar:
+    github: erik-j-d
+  inaimathi:
+    display_name: Inaimathi
+    gravatar:
+    github: inaimathi
 
 defaults:
   -
