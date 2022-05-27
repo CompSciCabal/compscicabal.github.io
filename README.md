@@ -9,7 +9,6 @@ The World Wide Web hypertext repository for [cscabal.com](http://cscabal.com)
     - This will come with `gem`
 - `$ gem install bundler`
     - If you already had `bundler` installed, run `gem update bundler` - we need at least v1.14
-- `$ bundle config set --local path 'vendor/bundle'`
 - `$ bundle install`
 - Add yourself to the `authors` section of `_config.yml`
 
