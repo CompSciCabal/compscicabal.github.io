@@ -38,6 +38,7 @@ We then jumped into [The Little Schemer](https://mitpress.mit.edu/books/little-s
 
 - [A Unified Theory of Garbage Collection](https://www.cs.cornell.edu/courses/cs6120/2019fa/blog/unified-theory-gc/) by Bacon
     - This choice of paper was inspired by a Sigbovik paper a few of us submitted, the paper and the presentation can be found over at [orca.garden](https://orca.garden/)
+- [The Structure of a Programming Language Revolution](https://www.cs.tufts.edu/~nr/cs257/archive/richard-gabriel/Incommensurability.pdf) by Gabriel
 - [Packrat Parsing: Simple, Powerful, Lazy, Linear Time](https://bford.info/pub/lang/packrat-icfp02.pdf) by Ford
 - David, our resident CRDT expert gave us all a CRDT tutorial and showed off some of his work. We also read:
     - [A Highly-Available Move Operation for Replicated Trees](https://martin.kleppmann.com/papers/move-op.pdf) by Kleppmann et al.
