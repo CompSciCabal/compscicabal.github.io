@@ -17,7 +17,7 @@ Myself and a new group of folks who weren't around for the original reading of S
 - [Pursue Robust Indefinite Scalability](https://www.cs.unm.edu/~ackley/papers/hotos-11.pdf) by David Ackley.
     - David actually joined us that day and was happy to hear about how other people interpreted his work without speaking up until later in the conversation, so I had the pleasure of presenting his own paper back to him. It was nerve-wracking, but wonderful to have him along and I think we all learned a lot.
 - [As We May Think](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/) by Vannevar Bush
-    - This one made a number of us go down various note-taking / Zettelkasten rabbit-holes for a _months_, experimenting with various note platforms and pesonal wikis. (I personally settled on [Logseq](https://logseq.com/))
+    - This one made a number of us go down various note-taking / Zettelkasten rabbit-holes for _months_, experimenting with various note platforms and pesonal wikis. (I personally settled on [Logseq](https://logseq.com/))
 - [An Axiomatic Basis for Computer Programming](https://www.cs.cmu.edu/~crary/819-f09/Hoare69.pdf) by Hoare
 - [Communicating Sequential Processes](https://dl.acm.org/doi/pdf/10.1145/359576.359585) again by Hoare
 - [Penrose: From Mathematical Notation to Beautiful Diagrams](https://web.archive.org/web/20220429235741/https://penrose.cs.cmu.edu/media/Penrose_SIGGRAPH2020a.pdf) by Ye et al.
