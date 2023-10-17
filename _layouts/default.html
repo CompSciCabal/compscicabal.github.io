@@ -11,9 +11,11 @@
   </head>
   <body>
     <div class="wrapper">
-
+      {% include header.html %}
+      <section>
       {{ content }}
-
+      </section>
+      {% include footer.html %}
     </div>
   </body>
 </html>
